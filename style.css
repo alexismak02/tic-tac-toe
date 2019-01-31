@@ -1,0 +1,39 @@
+body{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	background-image: url("./doodle.jpg");
+}
+
+.big-box{
+	display: inline-grid;
+	grid-template-columns: auto auto auto;
+	grid-column-gap: 2px;
+	grid-row-gap: 2px;
+}
+
+.small-box{
+	width: 100px;
+	height:100px;
+	border: 2px solid grey;
+	border-radius: 10px;
+	font-size: 50px;
+	text-align: center;
+	vertical-align: middle;
+	background-color: rgb(255,255,255,0.5);
+}
+
+h2{
+	font-family: "Courier New", Courier, monospace;
+}
+
+#play-again-btn{
+	background-color: rgb(191, 249, 214, 0.5);
+	font-family: "Comic Sans MS", cursive, sans-serif
+}
+
+#reset-game-btn{
+	background-color: rgb(249, 191, 212, 0.5);
+	font-family: "Comic Sans MS", cursive, sans-serif
+}
