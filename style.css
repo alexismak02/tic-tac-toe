@@ -1,9 +1,24 @@
 body{
+	height: 100vw;
+	background-image: url("./doodle.jpg");
+}
+
+article{
 	display: flex;
 	justify-content: center;
 	align-items: center;
 	flex-direction: column;
-	background-image: url("./doodle.jpg");
+	height: 98vw;
+}
+
+#contact{
+	font-size: 15px;
+	float: left; 
+}
+
+#copyright{
+	font-size: 15px;
+	float: right; 
 }
 
 .big-box{
